@@ -9,7 +9,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-const targetUrl = 'http://localhost:8000/transaction/webhook/65707a98e581a683cabf4a4f';
+const targetUrl = 'https://api-uoleti-prod-v77genjdha-uc.a.run.app/transaction/webhook/65707a98e581a683cabf4a4f';
 
 async function sendHttpRequest(payload) {
   try {
